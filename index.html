@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;1,700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+        integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.6.0.js"
+        integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="main.css">
+</head>
+
+<body>
+    <main>
+        <section class="glass">
+            <div class="dashboard">
+                <div class="user">
+                    <img src="img/avatar.png" alt="">
+                    <h3>Axe</h3>
+                    <p>Pro Member</p>
+                </div>
+                <div class="nav flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+                    <a class="nav-link my-link active mb-3" id="v-pills-mgt-tab" data-toggle="pill" href="#v-pills-mgt"
+                        role="tab" aria-controls="v-pills-mgt" aria-selected="true">
+                        <h4>MGT</h4>
+                    </a>
+                    <a class="nav-link my-link" id="v-pills-catFact-tab" data-toggle="pill" href="#v-pills-catFact"
+                        role="tab" aria-controls="v-pills-catFact" aria-selected="false">
+                        <h4>Cat Facts</h4>
+                    </a>
+                </div>
+                <div class="pro m-4">
+                    <h2>Join pro for free games.</h2>
+                    <img src="img/controller.png" alt="">
+                </div>
+            </div>
+            <div class="games active">
+                <div class="tab-content mt-1" id="v-pills-tabContent">
+                    <div class="tab-pane fade show active" id="v-pills-mgt" role="tabpanel"
+                        aria-labelledby="v-pills-mgt-tab">
+                        <div class="status mb-3">
+                            <h1>Magic The Gathering</h1>
+                            <button type="button" id="search-btn">Показать</button>
+                        </div>
+                    </div>
+                    <div class="tab-pane fade" id="v-pills-catFact" role="tabpanel"
+                        aria-labelledby="v-pills-catFact-tab">
+                        <h1>Факты о котах</h1>
+                        <button type="button" id="show-btn">Узнать факт</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <div class="circle1"></div>
+    <div class="circle2"></div>
+    <script src="main.js"></script>
+</body>
+
+</html>
